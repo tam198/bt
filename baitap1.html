@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="baitap1.css">
+        <title>Thi Nghiệp Vụ Sư Phạm</title>
+    </head>
+    <body>
+        <br>
+        <div id="title">
+            <h1>HỘI THI NGHIỆP VỤ SƯ PHẠM</h1>
+            <br>
+            <h2>PHẦN THI HIỂU BIẾT SƯ PHẠM</h2>
+        </div>
+        <br>
+        <div id="btn">
+            <button id="btn1" onclick="myFunction1()">1</button>
+            <button id="btn2" onclick="myFunction3()">2</button>
+            <button id="btn3" onclick="myFunction1()">3</button>
+            <br>
+            <button id="btn4" onclick="myFunction1()">4</button>
+            <button id="btn5" onclick="myFunction1()">5</button>
+            <button id="btn6" onclick="myFunction1()">6</button>
+            <br>   
+            <button id="btn7" onclick="myFunction1()">7</button>
+            <button id="btn8" onclick="myFunction1()">8</button>
+            <button id="btn9" onclick="myFunction1()">9</button>
+        </div>
+        <div id="luoi1" class="grid" style="display: none">
+            <head>
+                <button id="close" onclick="close1()" >Đóng</button>
+            </head>
+            <div id="question" style="display: none">
+                <h1>Câu hỏi</h1>
+                <hr style="margin-bottom: 20px">
+            
+                <p id="cauhoi"></p>
+            
+                <div class="buttons">
+                    <button id="bttn0"><span id="choice0"></span></button>
+                    <button id="bttn1"><span id="choice1"></span></button>
+                    <button id="bttn2"><span id="choice2"></span></button>
+                    <button id="bttn3"><span id="choice3"></span></button>
+                </div>
+            
+                <hr style="margin-top: 50px">
+            </div>
+            <script src="baitap1.js"></script>
+        </div>
+
+        <div id="luoi2" class="grid" style="display: none">
+            <head>
+                <button id="close" onclick="close2()" >Đóng</button>
+            </head>
+            <div id="question2" style="display: none">
+                <h1>Câu hỏi</h1>
+                <hr style="margin-bottom: 20px">
+            
+                <p id="cauhoi2"></p>
+            
+                <div class="buttons">
+                    <button id="bttn20"><span id="choice20"></span></button>
+                    <button id="bttn21"><span id="choice21"></span></button>
+                    <button id="bttn22"><span id="choice22"></span></button>
+                    <button id="bttn23"><span id="choice23"></span></button>
+                </div>
+            
+                <hr style="margin-top: 50px">
+            </div>
+            <script src="bo2.js"></script>
+        </div>
+        
+    </body>
+</html>
